@@ -2,8 +2,7 @@ package com.arnaldoneto.libraryapi.api.dto;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
