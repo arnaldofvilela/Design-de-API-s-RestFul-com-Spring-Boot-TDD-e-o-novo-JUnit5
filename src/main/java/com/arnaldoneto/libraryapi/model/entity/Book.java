@@ -1,4 +1,4 @@
-package com.arnaldoneto.libraryapi.api.model.entity;
+package com.arnaldoneto.libraryapi.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

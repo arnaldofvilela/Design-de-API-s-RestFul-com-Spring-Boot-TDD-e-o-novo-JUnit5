@@ -1,6 +1,6 @@
 package com.arnaldoneto.libraryapi.service;
 
-import com.arnaldoneto.libraryapi.api.model.entity.Book;
+import com.arnaldoneto.libraryapi.model.entity.Book;
 import org.springframework.stereotype.Service;
 
 @Service

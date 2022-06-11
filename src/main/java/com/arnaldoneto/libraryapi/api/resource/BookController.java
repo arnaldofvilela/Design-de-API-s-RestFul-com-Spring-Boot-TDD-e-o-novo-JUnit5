@@ -1,7 +1,7 @@
 package com.arnaldoneto.libraryapi.api.resource;
 
 import com.arnaldoneto.libraryapi.api.dto.BookDTO;
-import com.arnaldoneto.libraryapi.api.model.entity.Book;
+import com.arnaldoneto.libraryapi.model.entity.Book;
 import com.arnaldoneto.libraryapi.service.BookService;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
