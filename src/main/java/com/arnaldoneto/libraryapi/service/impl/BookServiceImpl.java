@@ -5,6 +5,8 @@ import com.arnaldoneto.libraryapi.model.entity.Book;
 import com.arnaldoneto.libraryapi.model.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class BookServiceImpl implements com.arnaldoneto.libraryapi.service.BookService {
 
@@ -21,4 +23,9 @@ public class BookServiceImpl implements com.arnaldoneto.libraryapi.service.BookS
         }
         return repository.save(book);
         }
+
+    @Override
+    public Optional<Book> getById(Long id) {
+        return Optional.empty();
+    }
 }
