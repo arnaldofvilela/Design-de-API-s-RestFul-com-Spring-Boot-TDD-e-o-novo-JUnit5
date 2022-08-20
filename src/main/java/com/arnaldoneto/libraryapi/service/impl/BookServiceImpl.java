@@ -28,4 +28,9 @@ public class BookServiceImpl implements com.arnaldoneto.libraryapi.service.BookS
     public Optional<Book> getById(Long id) {
         return Optional.empty();
     }
+
+    @Override
+    public void delete(Book book) {
+
+    }
 }
