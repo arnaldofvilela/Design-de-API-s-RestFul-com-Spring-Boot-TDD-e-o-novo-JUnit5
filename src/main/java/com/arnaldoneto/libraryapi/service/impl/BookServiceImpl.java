@@ -33,4 +33,9 @@ public class BookServiceImpl implements com.arnaldoneto.libraryapi.service.BookS
     public void delete(Book book) {
 
     }
+
+    @Override
+    public Book update(Book book) {
+        return null;
+    }
 }
