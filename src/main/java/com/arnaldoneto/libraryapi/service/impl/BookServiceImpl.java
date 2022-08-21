@@ -26,7 +26,7 @@ public class BookServiceImpl implements com.arnaldoneto.libraryapi.service.BookS
 
     @Override
     public Optional<Book> getById(Long id) {
-        return Optional.empty();
+        return this.repository.findById(id);
     }
 
     @Override
